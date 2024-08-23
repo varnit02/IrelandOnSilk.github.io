@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f2ee;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-family: 'Great Vibes', serif;
+    font-size: 32px;
+    color: #a78b71;
+}
+
+.hero {
+    background-image: url('silk-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #a78b71;
+}
+
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0 30px;
+}
+
+#countdown {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #a78b71;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.thumbnails img {
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.newsletter {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #a78b71;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.newsletter form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a78b71;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f1ebe4;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #a78b71;
+}
+
+footer .contact {
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #666;
+}
